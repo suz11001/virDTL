@@ -1,0 +1,1 @@
+these genomes were selected for their completeness and their (mostly completely)  annotations i.e. if cds could not be successfully retried from esearch (as directed by script X), we had to drop the genomes.

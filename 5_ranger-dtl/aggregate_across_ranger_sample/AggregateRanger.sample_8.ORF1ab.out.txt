@@ -1,0 +1,117 @@
+Processed 100 files
+
+
+Aggregate reconciliation:
+MT0403361: Leaf Node
+MT0728641: Leaf Node
+m4 = LCA[MT0403361, MT0728641]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n52, 100 times].
+MT0403351: Leaf Node
+MT0403341: Leaf Node
+m7 = LCA[MT0403351, MT0403341]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n53, 100 times].
+m3 = LCA[MT0403361, MT0403341]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n51, 100 times].
+MT0403331: Leaf Node
+m2 = LCA[MT0403361, MT0403331]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n50, 100 times].
+KY3524071: Leaf Node
+NC0144701: Leaf Node
+m14 = LCA[KY3524071, NC0144701]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n2, 100 times].
+GQ1535421: Leaf Node
+DQ0223052: Leaf Node
+GQ1535471: Leaf Node
+m20 = LCA[DQ0223052, GQ1535471]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n45, 100 times].
+m18 = LCA[GQ1535421, GQ1535471]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n44, 100 times].
+KY9385581: Leaf Node
+DQ6488561: Leaf Node
+DQ4120421: Leaf Node
+m29 = LCA[DQ6488561, DQ4120421]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n43, 100 times].
+KJ4738121: Leaf Node
+KY7708601: Leaf Node
+m32 = LCA[KJ4738121, KY7708601]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> KJ4738121, 56 times], [Most Frequent recipient --> KY7708601, 56 times].
+m28 = LCA[DQ6488561, KY7708601]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n41, 56 times].
+m26 = LCA[KY9385581, KY7708601]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n40, 100 times].
+JX9939871: Leaf Node
+m25 = LCA[KY9385581, JX9939871]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n39, 100 times].
+MK2113741: Leaf Node
+JX9939881: Leaf Node
+KF5699961: Leaf Node
+KU9736921: Leaf Node
+m41 = LCA[KF5699961, KU9736921]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n34, 100 times].
+m39 = LCA[JX9939881, KU9736921]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> JX9939881, 100 times], [Most Frequent recipient --> n34, 100 times].
+KJ4738151: Leaf Node
+KY4171441: Leaf Node
+KJ4738161: Leaf Node
+m50 = LCA[KY4171441, KJ4738161]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n11, 100 times].
+MK2113751: Leaf Node
+m49 = LCA[KY4171441, MK2113751]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n10, 100 times].
+DQ0716151: Leaf Node
+AY5720341: Leaf Node
+AY5720381: Leaf Node
+m57 = LCA[AY5720341, AY5720381]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n31, 100 times].
+m55 = LCA[DQ0716151, AY5720381]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> DQ0716151, 67 times], [Most Frequent recipient --> n31, 100 times].
+KY4171451: Leaf Node
+MK2113781: Leaf Node
+MK2113771: Leaf Node
+MK2113761: Leaf Node
+m65 = LCA[MK2113771, MK2113761]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n17, 100 times].
+m63 = LCA[MK2113781, MK2113761]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n16, 100 times].
+KY4171491: Leaf Node
+KY4171421: Leaf Node
+KY4171511: Leaf Node
+m73 = LCA[KY4171421, KY4171511]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> KY4171511, 68 times], [Most Frequent recipient --> KY4171421, 68 times].
+KY4171521: Leaf Node
+m72 = LCA[KY4171421, KY4171521]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> KY4171521, 100 times], [Most Frequent recipient --> KY4171511, 68 times].
+m70 = LCA[KY4171491, KY4171521]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n24, 100 times].
+KF3674571: Leaf Node
+m69 = LCA[KY4171491, KF3674571]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n23, 100 times].
+KY4171461: Leaf Node
+KY4171481: Leaf Node
+KT4445821: Leaf Node
+KY4171431: Leaf Node
+m83 = LCA[KT4445821, KY4171431]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> KY4171431, 100 times], [Most Frequent recipient --> KT4445821, 100 times].
+m81 = LCA[KY4171481, KY4171431]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n21, 100 times].
+m79 = LCA[KY4171461, KY4171431]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> n21, 67 times], [Most Frequent recipient --> KY4171461, 67 times].
+KY4171471: Leaf Node
+m78 = LCA[KY4171461, KY4171471]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> KY4171471, 100 times], [Most Frequent recipient --> n21, 67 times].
+m68 = LCA[KY4171491, KY4171471]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n22, 100 times].
+m62 = LCA[MK2113781, KY4171471]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n14, 100 times].
+m60 = LCA[KY4171451, KY4171471]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n13, 100 times].
+m54 = LCA[DQ0716151, KY4171471]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> n9, 65 times], [Most Frequent recipient --> n13, 100 times].
+m48 = LCA[KY4171441, KY4171471]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n8, 100 times].
+FJ5886861: Leaf Node
+KY7708581: Leaf Node
+m87 = LCA[FJ5886861, KY7708581]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n26, 100 times].
+m47 = LCA[KY4171441, KY7708581]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> n26, 100 times], [Most Frequent recipient --> n8, 100 times].
+KP8868081: Leaf Node
+NC0047183: Leaf Node
+AY5720351: Leaf Node
+AY6868631: Leaf Node
+m95 = LCA[AY5720351, AY6868631]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n33, 100 times].
+AY6868641: Leaf Node
+m94 = LCA[AY5720351, AY6868641]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n30, 100 times].
+m92 = LCA[NC0047183, AY6868641]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n29, 100 times].
+m90 = LCA[KP8868081, AY6868641]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n28, 100 times].
+m46 = LCA[KY4171441, AY6868641]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n25, 100 times].
+m44 = LCA[KJ4738151, AY6868641]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n7, 100 times].
+m38 = LCA[JX9939881, AY6868641]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n6, 100 times].
+m36 = LCA[MK2113741, AY6868641]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> MK2113741, 100 times], [Most Frequent recipient --> n6, 100 times].
+m24 = LCA[KY9385581, AY6868641]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n38, 100 times].
+DQ4120431: Leaf Node
+KJ4738141: Leaf Node
+m99 = LCA[DQ4120431, KJ4738141]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> KJ4738141, 55 times], [Most Frequent recipient --> DQ4120431, 55 times].
+m23 = LCA[KY9385581, KJ4738141]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n36, 55 times].
+m17 = LCA[GQ1535421, KJ4738141]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n35, 100 times].
+m13 = LCA[KY3524071, KJ4738141]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> n35, 88 times], [Most Frequent recipient --> n2, 88 times].
+MG7729331: Leaf Node
+MG7729341: Leaf Node
+m102 = LCA[MG7729331, MG7729341]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n48, 100 times].
+m12 = LCA[KY3524071, MG7729341]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> n48, 100 times], [Most Frequent recipient --> n35, 88 times].
+MN9965321: Leaf Node
+NC0455122: Leaf Node
+m105 = LCA[MN9965321, NC0455122]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n49, 100 times].
+m11 = LCA[KY3524071, NC0455122]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n47, 100 times].
+m1 = LCA[MT0403361, NC0455122]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n46, 100 times].
+
+
+Percentage of events with 100% consistency = 100
+Percentage of mappings with 100% consistency = 83.0189
+Total number of non-leaf nodes in gene tree: 53
+Total number of optimal solutions: 96

@@ -1,0 +1,125 @@
+
+
+IMPORTANT WARNING: Sequences MT0403341 and MT0403351 are exactly identical
+
+
+IMPORTANT WARNING: Sequences MT0403341 and MT0403361 are exactly identical
+
+
+IMPORTANT WARNING: Sequences MT0403341 and MT0728641 are exactly identical
+
+
+IMPORTANT WARNING: Sequences AY5720341 and AY5720351 are exactly identical
+
+
+IMPORTANT WARNING: Sequences AY5720341 and AY5720381 are exactly identical
+
+
+IMPORTANT WARNING: Sequences AY5720341 and AY6868641 are exactly identical
+
+
+IMPORTANT WARNING: Sequences AY5720341 and DQ4120431 are exactly identical
+
+
+IMPORTANT WARNING: Sequences AY5720341 and JX9939871 are exactly identical
+
+
+IMPORTANT WARNING: Sequences AY5720341 and JX9939881 are exactly identical
+
+
+IMPORTANT WARNING: Sequences AY5720341 and KF5699961 are exactly identical
+
+
+IMPORTANT WARNING: Sequences AY5720341 and KJ4738141 are exactly identical
+
+
+IMPORTANT WARNING: Sequences AY5720341 and KU9736921 are exactly identical
+
+
+IMPORTANT WARNING: Sequences AY5720341 and NC0047183 are exactly identical
+
+
+IMPORTANT WARNING: Sequences KY7708601 and KP8868081 are exactly identical
+
+
+IMPORTANT WARNING: Sequences KY7708601 and KJ4738121 are exactly identical
+
+
+IMPORTANT WARNING: Sequences KY7708601 and DQ6488561 are exactly identical
+
+
+IMPORTANT WARNING: Sequences KY7708601 and DQ4120421 are exactly identical
+
+
+IMPORTANT WARNING: Sequences DQ0223052 and FJ5886861 are exactly identical
+
+
+IMPORTANT WARNING: Sequences DQ0223052 and GQ1535421 are exactly identical
+
+
+IMPORTANT WARNING: Sequences DQ0223052 and GQ1535471 are exactly identical
+
+
+IMPORTANT WARNING: Sequences DQ0223052 and KT4445821 are exactly identical
+
+
+IMPORTANT WARNING: Sequences DQ0223052 and KY4171421 are exactly identical
+
+
+IMPORTANT WARNING: Sequences DQ0223052 and KY4171431 are exactly identical
+
+
+IMPORTANT WARNING: Sequences DQ0223052 and KY4171441 are exactly identical
+
+
+IMPORTANT WARNING: Sequences DQ0223052 and KY4171461 are exactly identical
+
+
+IMPORTANT WARNING: Sequences DQ0223052 and KY4171471 are exactly identical
+
+
+IMPORTANT WARNING: Sequences DQ0223052 and KY4171481 are exactly identical
+
+
+IMPORTANT WARNING: Sequences DQ0223052 and KY4171491 are exactly identical
+
+
+IMPORTANT WARNING: Sequences DQ0223052 and KY4171511 are exactly identical
+
+
+IMPORTANT WARNING: Sequences DQ0223052 and KY4171521 are exactly identical
+
+
+IMPORTANT WARNING: Sequences DQ0223052 and KY7708581 are exactly identical
+
+
+IMPORTANT WARNING: Sequences DQ0223052 and MK2113741 are exactly identical
+
+
+IMPORTANT WARNING: Sequences DQ0223052 and MK2113751 are exactly identical
+
+
+IMPORTANT WARNING: Sequences DQ0223052 and MK2113761 are exactly identical
+
+
+IMPORTANT WARNING: Sequences DQ0223052 and MK2113771 are exactly identical
+
+
+IMPORTANT WARNING: Sequences DQ0223052 and MK2113781 are exactly identical
+
+IMPORTANT WARNING
+Found 36 sequences that are exactly identical to other sequences in the alignment.
+Normally they should be excluded from the analysis.
+
+Just in case you might need it, an alignment file with 
+sequence duplicates removed is printed to file /tmp/tmpimO8C7.align.reduced
+TreeFix-DTL version: 1.0.2
+
+TreeFix-DTL executed with the following arguments:
+treefixDTL -s species.tree -S mapping.txt -A .aln -o .tree -n .treefixDTL.tree -U .tree -e "-m GTRGAMMA -e 2.0" -V1 -l ./.nuc.raxml.treefixDTL.log ORF10.tree
+
+TreeFix command:
+treefix --log ./.nuc.raxml.treefixDTL.log --smap mapping.txt --verbose 1 --extra "-m GTRGAMMA -e 2.0" --alignext .aln --oldext .tree --niter 1000 --stree species.tree --newext .treefixDTL.tree --module treefix.models.raxmlmodel.RAxMLModel --alpha 0.05 --test SH --smodule treefix.models.rangerdtlmodel.DTLModel --usertreeext .tree --nquickiter 100 --freconroot 0 ORF10.tree
+
+
+
