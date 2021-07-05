@@ -41,6 +41,11 @@ scripts in
 
 - Analyze the aggregate recombination events, using the notebooks in
 [7_analysis](https://github.com/suz11001/virDTL/tree/main/7_analysis)
+  - Compile aggregated recombinations and define support thresholds [here](https://github.com/suz11001/virDTL/blob/main/7_analysis/00_Clean_Aggregate_Recombinations.ipynb).
+  - Compute basic statistics on transfers [here](https://github.com/suz11001/virDTL/blob/main/7_analysis/01_Basic_Statistics.ipynb).
+  - Investigate bidirectional transfers [here](https://github.com/suz11001/virDTL/blob/main/7_analysis/02_Bidirectional_Transfers.ipynb).
+  - Investigate recombination across gene boundaries [here](https://github.com/suz11001/virDTL/blob/main/7_analysis/03_Grouped_Transfers.ipynb).
+  - Investigate relationship between clade size and rate of recombination [here](https://github.com/suz11001/virDTL/blob/main/7_analysis/04_Recombination_by_Clade_Size.ipynb).
 
 Processed data sets from our analysis of the _Sarbecovirus_ subgenus can be
 found in the corresponding folders.
