@@ -17,5 +17,30 @@ If you use VirDTL in a publication, please cite [citation TBD].
 
 ## Tutorial
 
-- Source data used in the publiction can be downloaded and pre-processed
-using the scripts in [1_species_data](https://github.com/suz11001/virDTL/tree/main/1_species_data)
+- Download and pre-process sequence data, and construct the full strain tree
+with [RAxML](https://cme.h-its.org/exelixis/web/software/raxml/)
+or [BEAST](https://beast.community) (recommended), using the scripts in
+[1_species_data](https://github.com/suz11001/virDTL/tree/main/1_species_data).
+
+- Annotate genes from each sequence, construct gene family alignments, and
+estimate gene family trees with RAxML, using the scripts in
+[2_gene_alignements](https://github.com/suz11001/virDTL/tree/main/2_gene_alignments).
+
+- Error correct gene family trees with [TreeFix-DTL](http://compbio.mit.edu/treefix/tutorial.html),
+using the scripts in 
+[4_treefix](https://github.com/suz11001/virDTL/tree/main/4_treefix).
+
+- Reconcile the gene family trees with the strain tree with 
+[RANGER-DTL](https://compbio.engr.uconn.edu/software/ranger-dtl/), using the 
+scripts in 
+[5_ranger-dtl](https://github.com/suz11001/virDTL/tree/main/5_ranger-dtl).
+
+- Aggregate and summarize recombination events with support values, using the
+scripts in 
+[6_parse_reconciliation](https://github.com/suz11001/virDTL/tree/main/6_parse_reconciliation)
+
+- Analyze the aggregate recombination events, using the notebooks in
+[7_analysis](https://github.com/suz11001/virDTL/tree/main/7_analysis)
+
+Processed data sets from our analysis of the _Sarbecovirus_ subgenus can be
+found in the corresponding folders.
