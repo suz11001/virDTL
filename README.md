@@ -33,9 +33,9 @@ scripts in
 [5_ranger-dtl](https://github.com/suz11001/virDTL/tree/main/5_ranger-dtl).
 - Aggregate and summarize recombination events with support values, using the
 scripts in 
-[6_parse_reconciliation](https://github.com/suz11001/virDTL/tree/main/6_parse_reconciliation)
+[6_parse_reconciliation](https://github.com/suz11001/virDTL/tree/main/6_parse_reconciliation).
 - Analyze the aggregate recombination events, using the notebooks in
-[7_analysis](https://github.com/suz11001/virDTL/tree/main/7_analysis)
+[7_analysis](https://github.com/suz11001/virDTL/tree/main/7_analysis).
   - Compile aggregated recombinations and define support thresholds [here](https://github.com/suz11001/virDTL/blob/main/7_analysis/00_Clean_Aggregate_Recombinations.ipynb).
   - Compute basic statistics on transfers [here](https://github.com/suz11001/virDTL/blob/main/7_analysis/01_Basic_Statistics.ipynb).
   - Investigate bidirectional transfers [here](https://github.com/suz11001/virDTL/blob/main/7_analysis/02_Bidirectional_Transfers.ipynb).
