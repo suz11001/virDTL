@@ -11,9 +11,22 @@ recombination.
 
 VirDTL is described in the paper ["Phylogenetic reconciliation reveals 
 extensive ancestral recombination in sarbecoviruses and the SARS-CoV-2 
-lineage"](Link TBD) by Zaman, Sledzieski, Berger, Wu, and Bansal.
+lineage"](https://www.biorxiv.org/content/10.1101/2021.08.12.456131v1) by Zaman, Sledzieski, Berger, Wu, and Bansal.
 
-If you use VirDTL in a publication, please cite [citation TBD].
+If you use VirDTL in a publication, please cite
+
+```
+@article {ZamanVirDTL,
+	author = {Zaman, Sumaira and Sledzieski, Samuel and Berger, Bonnie and Wu, Yi-Chieh and Bansal, Mukul S.},
+	title = {Phylogenetic reconciliation reveals extensive ancestral recombination 
+  in Sarbecoviruses and the SARS-CoV-2 lineage},
+	year = {2021},
+	doi = {10.1101/2021.08.12.456131},
+	publisher = {Cold Spring Harbor Laboratory},
+	URL = {https://www.biorxiv.org/content/early/2021/08/12/2021.08.12.456131},
+	journal = {bioRxiv}
+}
+```
 
 ## Tutorial
 
