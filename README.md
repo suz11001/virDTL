@@ -48,7 +48,8 @@ scripts in
 scripts in 
 [6_parse_reconciliation](https://github.com/suz11001/virDTL/tree/main/6_parse_reconciliation).
 - Analyze the aggregate recombination events, using the notebooks in
-[7_analysis](https://github.com/suz11001/virDTL/tree/main/7_analysis).
+[7_analysis](https://github.com/suz11001/virDTL/tree/main/7_analysis) or [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1W0zNutKE4sSduYw5hlYm7pgUCD-VSUBo?usp=sharing)
+
   - Compile aggregated recombinations and define support thresholds [here](https://github.com/suz11001/virDTL/blob/main/7_analysis/00_Clean_Aggregate_Recombinations.ipynb).
   - Compute basic statistics on transfers [here](https://github.com/suz11001/virDTL/blob/main/7_analysis/01_Basic_Statistics.ipynb).
   - Investigate bidirectional transfers [here](https://github.com/suz11001/virDTL/blob/main/7_analysis/02_Bidirectional_Transfers.ipynb).
