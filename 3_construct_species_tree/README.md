@@ -21,3 +21,12 @@ BEAST may need to be run multiple times or for longer iterations to ensure
 that the chain converges -- multiple runs can be combined using `TreeAnnotator`
 (not included with `virDTL`).
 
+## Root Trees using Midpoint Rooting
+
+BEAST returns rooted trees, and for the _Sarbecovirus_ analysis, we rooted
+them using a known outgroup. However, in general you can also perform
+alternative rootings of the species tree, including midpoint rooting:
+
+```
+python midpoint.py <species tree file>
+```
