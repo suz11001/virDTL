@@ -14,4 +14,4 @@
 module load anaconda
 module load RAxML/8.2.11
 
-raxmlHPC-PTHREADS -T 20 -f a -p 13579 -N 100 -m GTRGAMMA -x 12345 -s ../2_msa/annotated_covids.aln -n raxml
+raxmlHPC-PTHREADS -T 20 -f a -p 13579 -N 100 -m GTRGAMMA -x 12345 -s ../2_msa/output/annotated_covids.aln -n raxml
