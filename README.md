@@ -45,20 +45,17 @@ conda env create -f environment.yml
 
 ## Tutorial
 
-- Download and pre-process sequence data, and construct the full strain tree
-with [RAxML](https://cme.h-its.org/exelixis/web/software/raxml/)
-or [BEAST](https://beast.community) (recommended), using the scripts in
-[1_species_data](https://github.com/suz11001/virDTL/tree/main/1_species_data).
+- Download and pre-process sequence data as described [0_fetch_data](https://github.com/suz11001/virDTL/tree/main/0_fetch_data).  
+- Generate a whole genome alignment as described in [1_align_whole_genome](https://github.com/suz11001/virDTL/tree/main/1_align_whole_genome)
 - Annotate genes from each sequence, construct gene family alignments, and
-estimate gene family trees with RAxML, using the scripts in
-[2_gene_alignements](https://github.com/suz11001/virDTL/tree/main/2_gene_alignments).
+estimate gene family trees with RAxML, using the scripts in [2_construct_gene_trees](https://github.com/suz11001/virDTL/tree/main/2_construct_gene_trees).  
+- Generate multiple species trees using RAxML or BEAST (recommended) as described in [3_construct_species_tree](https://github.com/suz11001/virDTL/tree/main/3_construct_species_tree)
 - Error correct gene family trees with [TreeFix-DTL](http://compbio.mit.edu/treefix/tutorial.html),
-using the scripts in 
-[4_treefix](https://github.com/suz11001/virDTL/tree/main/4_treefix).
+using the scripts in [4_error_correct_gene_trees](https://github.com/suz11001/virDTL/tree/main/4_error_correct_gene_trees).
 - Reconcile the gene family trees with the strain tree with 
 [RANGER-DTL](https://compbio.engr.uconn.edu/software/ranger-dtl/), using the 
 scripts in 
-[5_ranger-dtl](https://github.com/suz11001/virDTL/tree/main/5_ranger-dtl).
+[5_reconcile_gene_trees](https://github.com/suz11001/virDTL/tree/main/5_reconcile_gene_trees).
 - Aggregate and summarize recombination events with support values, using the
 scripts in 
 [6_parse_reconciliation](https://github.com/suz11001/virDTL/tree/main/6_parse_reconciliation).
