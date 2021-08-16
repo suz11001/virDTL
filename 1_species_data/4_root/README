@@ -1,1 +1,5 @@
-annotated.tree is copy of ../3_raxml/RAxML_bestTree.raxml with slight notation modification 
+annotated.tree is copy of ../3_raxml/RAxML_bestTree.raxml with slight notation modification (add a parantheses at the beginning of the file and at the end of the file prior to the semi-colon)
+
+input is: annotated.tree
+command: midpoint.py annotated.tree
+output is: annotated.tree_rooted

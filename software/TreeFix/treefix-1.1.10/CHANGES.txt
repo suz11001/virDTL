@@ -1,0 +1,76 @@
+TreeFix Change Log
+-----------------------
+
+treefix-1.1.10 (2014/06/19)
+-----------------------
+-- update libraries
+
+
+treefix-1.1.9 (2014/04/15)
+-----------------------
+-- use one-sided SH test in raxmlmodel
+
+
+treefix-1.1.8 (2013/11/05)
+-----------------------
+-- add input checks (rooted, binary trees; matching alignment, gene tree, species tree, species map)
+-- add --maxtime parameter for search
+-- add tree-annotate script for event/homolog inference
+
+
+treefix-1.1.7 (2012/12/14)
+-----------------------
+- simplify version control
+
+
+treefix-1.1.6 (2012/11/06)
+-----------------------
+- change treefix_raxml to use approximation for normal distribution if scipy library is not found
+- update README and examples to show how to pass parameters to likelihood/reconciliation modules
+
+
+treefix-1.1.5 (2012/08/27)
+-----------------------
+- add TreeFix-RAxML to package
+
+
+treefix-1.1.4 (2012/08/17)
+-----------------------
+- update raxmlmodel to use treefix_raxml namespace
+- fix setup.py script
+
+
+treefix-1.1.3 (2012/06/26)
+-----------------------
+- add versions to models
+- fix minor error in raxmlmodel not passing --eps
+- move processing of --extra parameter in models to constructor (from optimize_model)
+- add change log to package
+
+
+treefix-1.1.2 (2012/05/11)
+-----------------------
+- move check congruent gene tree to pre-processing step in search (affects bootstraps)
+- add trivial bootstraps and fixed minor bug in output for special cases of small tree and input gene tree
+
+
+treefix-1.1.1 (2012/05/08)
+-----------------------
+- fix major bug in p-value computation of previous release
+- add pre-processing step to check input gene tree
+
+
+treefix-1.1 (2012/03/26)
+-----------------------
+- THIS VERSION INCLUDES A MAJOR BUG AND SHOULD NOT BE USED!
+- add bootstrap analysis
+- remove caching
+- add pre-processing step to check congruent gene tree
+- refactor code for computing likelihoods and costs into reuseable modules
+- update to use RAxML wrapper version 0.2
+
+
+treefix-1.0 (2011/11/12)
+-----------------------
+- initial release with TreeFix paper
+

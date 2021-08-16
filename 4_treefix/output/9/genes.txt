@@ -1,0 +1,11 @@
+ORF1ab
+E
+M
+N
+ORF10
+ORF3a
+ORF6
+ORF7a
+ORF7b
+ORF8
+S

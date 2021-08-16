@@ -13,15 +13,10 @@ def parse(directory):
         agg_input=(os.path.join(samples_path, sample))
         lines=[line.rstrip('\n') for line in open(agg_input)]
         for line in lines:
-            #Transfer, Mapping --> n43, Recipient --> MK2113741
-        #m16 = LCA[KJ4738151, KU9736921]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> KU9736921, 100 times], [Most Frequent recipient --> KJ4738151, 100 times].
             if "Transfer, Mapping" in line:
                 cols=line.split("-->")
-                #print(cols)
                 donor=cols[1].split(',')[0].lstrip().rstrip()
-                #print(donor)
                 recipient=cols[2].lstrip().rstrip()
-                #print(recipient)
                 if donor in donors.keys():
                     donors[donor]+=1 
                 else:
@@ -68,13 +63,10 @@ def parse(directory):
     done=[]
     for key in res.keys():
         for k in res.get(key):
-            #print(k)
             if res.has_key(k) and res.get(k).has_key(key) and ((res.get(key).get(k)) + (res.get(k).get(key)) > 700) :
                 if key not in done and k not in done:
                     print(key+"\t"+k+"\t"+str(res.get(key).get(k))+"\t"+k+"\t"+key+"\t"+str(res.get(k).get(key)))
                     done.append(key)
-                #if k not in done:
-                    #print(k+"\t"+key+"\t"+str(res.get(k).get(key)))
                     done.append(k)
 
     print("----")
@@ -125,6 +117,7 @@ def parse(directory):
     print("---")
     print("transfer events for calde of interest")
     for key in res2.keys():
+        #change interal node name and/or leaf node names to search for transfer events in clade of interest
         if "n46" in key or "n47" in key or "n49" in key or "NC0455122" in key:
                 if res.get(key[0]) is None:
                     print(','.join(key)+"\t"+str(res2.get(key))+"\t"+key[1]+"-"+str(res.get(key[1]).get(key[0])))
