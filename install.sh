@@ -1,5 +1,7 @@
-#!/usr/bin/bash
-echo Installing `virDTL` conda environment...
+echo Installing virDTL conda environment...
+CONDA_BASE=$(conda info --base)
+source $CONDA_BASE/etc/profile.d/conda.sh
+
 if $(conda env list | grep -q virDTL)
 then
     conda deactivate
@@ -15,3 +17,4 @@ do
     echo Copying $i to "$CONDA_PREFIX"/bin...
     cp $i "$CONDA_PREFIX"/bin
 done
+
