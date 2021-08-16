@@ -30,3 +30,5 @@ alternative rootings of the species tree, including midpoint rooting:
 ```
 python midpoint.py <species tree file>
 ```
+
+write out `<species tree file>.rooted` as the midpoint rooted tree.
