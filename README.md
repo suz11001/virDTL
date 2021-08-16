@@ -34,17 +34,14 @@ To install `virDTL` on Linux systems, run
 source ./install.sh
 ```
 This will create and activate the `virDTL` conda environment if it does not
-exist, and will copy binaries for Ranger-DTL, AggregateRanger, AggregateRanger_recipients, and
-OptRoot from the [`software`](https://github.com/suz11001/virDTL/tree/main/software)
-directory to `~/.local/bin`.
+exist, and will copy the required binaries from 
+[`software`](https://github.com/suz11001/virDTL/tree/main/software)
+to `~/.local/bin`.
 
 To install the conda environment directly without installing the binaries, run
 ```
 conda env create -f environment.yml
 ```
-
-TreeFix-DTL can also be found in the software directory, but should be
-installed using the [online instructions](http://compbio.mit.edu/treefix/tutorial.html).
 
 ## Tutorial
 
