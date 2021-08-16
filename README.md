@@ -28,6 +28,21 @@ If you use VirDTL in a publication, please cite
 }
 ```
 
+## Install
+Most of the software and Python packages used in this protocol are available
+from Anaconda. Before running the scripts, create a `conda` environment with
+the required packages using
+```
+conda env create -f environment.yml
+```
+
+Binaries for Ranger-DTL, AggregateRanger, AggregateRanger_recipients, and
+OptRoot can be found in the [`software`](https://github.com/suz11001/virDTL/tree/main/software)
+directory, and can optionally be installed using `install.sh`.
+
+TreeFix-DTL can also be found in the software directory, but should be
+installed using the [online instructions](http://compbio.mit.edu/treefix/tutorial.html).
+
 ## Tutorial
 
 - Download and pre-process sequence data, and construct the full strain tree
