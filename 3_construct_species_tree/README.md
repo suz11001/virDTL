@@ -6,6 +6,11 @@ To construct species trees for the non-recombinant regions, use BEAST with the p
 beast species_tree_configs/beast_NRR_B_config.xml
 ```
 
+You can create your own files using `beauti`. To create an accurate species
+tree, ensure you are using a non-recombinant region, include known tip dates,
+and set a reasonable prior for rates of evolution (see manuscript _Methods_
+for details on how these were set for the _Sarbecovirus_) analysis.
+
 ## Date Species Trees
 To date the species tree, again use BEAST
 ```
