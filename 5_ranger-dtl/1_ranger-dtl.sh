@@ -12,7 +12,7 @@
 #SBATCH --mem=1G 
 #SBATCH --array=1-11%11
 
-#change the path to virDTL in the $cdw variable
+#change the path to virDTL in the $cwd variable
 cwd="/virDTL/5_ranger-dtl/"
 
 line=$(head -n "$SLURM_ARRAY_TASK_ID" genes.txt | tail -n 1)
@@ -25,7 +25,7 @@ for sample in "${samples[@]}"; do
     mkdir $line
     cd $line/
     for ((i=1;i<=100;i++)); do
-	~/researchMukul/pgtr/Linux/CorePrograms/Ranger-DTL.linux -q -i ../4_treefix/output/$sample/$line/ranger.input.txt -o "sample"$sample"_reconciliation"$i
+	../software/ranger/CorePrograms/Ranger-DTL.linux -q -i ../4_treefix/output/$sample/$line/ranger.input.txt -o "sample"$sample"_reconciliation"$i
     done
 done
 
