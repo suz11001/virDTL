@@ -13,7 +13,7 @@
 
 module load muscle/3.8.31
 
-muscle -in annotated_covids.fa -maxiters 12 -out annotated_covids.aln
+muscle -in annotated_covids.fa -maxiters 12 -out output/annotated_covids.aln
 
 
 
