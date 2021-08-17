@@ -1,5 +1,4 @@
-
-#change the path to virDTL in the $cwd variable
+#change the $cwd to variable to the FULL path of where virDTL is located 
 cwd="/virDTL/5_ranger-dtl/"
 
 
