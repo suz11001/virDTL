@@ -1,0 +1,42 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Zaman"
+  given-names: "Sumaira"
+  orcid: "https://orcid.org/0000-0000-0000-0000"
+- family-names: "Sledzieski"
+  given-names: "Samuel"
+  orcid: "https://orcid.org/0000-0002-0170-3029"
+- family-names: "Berger"
+  given-names: "Bonnie"
+  orcid: "https://orcid.org/0000-0002-2724-7228"
+- family-names: "Wu"
+  given-names: "Yi-Chieh"
+- family-names: "Bansal"
+  given-names: "Mukul"
+  orcid: "https://orcid.org/0000-0003-0039-2596"
+title: "virDTL"
+version: 1.0.0
+date-released: 2021-08-19
+url: "https://github.com/suz11001/virDTL"
+preferred-citation:
+  type: article
+  authors:
+  - family-names: "Zaman"
+    given-names: "Sumaira"
+  - family-names: "Sledzieski"
+    given-names: "Samuel"
+    orcid: "https://orcid.org/0000-0002-0170-3029"
+  - family-names: "Berger"
+    given-names: "Bonnie"
+    orcid: "https://orcid.org/0000-0002-2724-7228"
+  - family-names: "Wu"
+    given-names: "Yi-Chieh"
+  - family-names: "Bansal"
+    given-names: "Mukul"
+    orcid: "https://orcid.org/0000-0003-0039-2596"
+    doi: "10.1101/2021.01.22.427866"
+  journal: "bioRxiv"
+  month: 8
+  title: "Phylogenetic reconciliation reveals extensive ancestral recombination in Sarbecoviruses and the SARS-CoV-2 lineage"
+  year: 2021
