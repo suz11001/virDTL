@@ -3,7 +3,6 @@ message: "If you use this software, please cite it as below."
 authors:
 - family-names: "Zaman"
   given-names: "Sumaira"
-  orcid: "https://orcid.org/0000-0000-0000-0000"
 - family-names: "Sledzieski"
   given-names: "Samuel"
   orcid: "https://orcid.org/0000-0002-0170-3029"
@@ -35,8 +34,10 @@ preferred-citation:
   - family-names: "Bansal"
     given-names: "Mukul"
     orcid: "https://orcid.org/0000-0003-0039-2596"
-    doi: "10.1101/2021.01.22.427866"
+  doi: "10.1101/2021.08.12.456131"
   journal: "bioRxiv"
+  publisher: "Cold Spring Harbor Laboratory"
   month: 8
   title: "Phylogenetic reconciliation reveals extensive ancestral recombination in Sarbecoviruses and the SARS-CoV-2 lineage"
   year: 2021
+
