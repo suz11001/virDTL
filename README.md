@@ -28,6 +28,9 @@ If you use VirDTL in a publication, please cite
 }
 ```
 
+[![DOI](https://zenodo.org/badge/381555718.svg)](https://zenodo.org/badge/latestdoi/381555718)
+
+
 ## Install
 To install `virDTL` on Linux systems, run
 ```
