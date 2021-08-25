@@ -1,4 +1,5 @@
 # VirDTL
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5247195.svg)](https://doi.org/10.5281/zenodo.5247195)
 
 VirDTL is a computational protocol for inference of both ancestral and extant
 strain recombination in viral genomes, using phylogenetic reconciliation.
@@ -27,9 +28,6 @@ If you use VirDTL in a publication, please cite
 	journal = {bioRxiv}
 }
 ```
-
-[![DOI](https://zenodo.org/badge/381555718.svg)](https://zenodo.org/badge/latestdoi/381555718)
-
 
 ## Install
 To install `virDTL` on Linux systems, run
