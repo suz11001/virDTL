@@ -1,31 +1,31 @@
 # VirDTL
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5247195.svg)](https://doi.org/10.5281/zenodo.5247195)
 
+
 VirDTL is a computational protocol for inference of both ancestral and extant
 strain recombination in viral genomes, using phylogenetic reconciliation.
 Duplication-Transfer-Loss (DTL) reconciliation accounts for incongruencies
 between the strain evolution tree and the evolutionary trees of each gene
 family by inferring a history of gene duplications, gene losses, and
-horizontal gene transfers (HGT). In the viral setting, HGTs correspond to
-viral recombinations, so DTL reconciliation can be used to infer
-recombination. 
+horizontal gene transfers (HGT). virDTL leverages DTL reconciliation to analyze incongruencies between the strain evolutionary tree and the evolutionary trees of each gene family (or genomic regions) to infer possible horizontal gene transfers, which correspond to possible recombination events in the context of viral evolution.
 
-VirDTL is described in the paper ["Phylogenetic reconciliation reveals 
-extensive ancestral recombination in sarbecoviruses and the SARS-CoV-2 
-lineage"](https://www.biorxiv.org/content/10.1101/2021.08.12.456131v1) by Zaman, Sledzieski, Berger, Wu, and Bansal.
+
+VirDTL is described in the paper ["virDTL: Viral recombination analysis through phylogenetic
+reconciliation and its application to sarbecoviruses and
+SARS-CoV-2"](https://compbio.engr.uconn.edu/wp-content/uploads/sites/2447/2022/07/virDTL_JCB2022_Preprint.pdf) by Zaman, Sledzieski, Berger, Wu, and Bansal.
 
 If you use VirDTL in a publication, please cite
 
 ```
 @article {ZamanVirDTL,
 	author = {Zaman, Sumaira and Sledzieski, Samuel and Berger, Bonnie and Wu, Yi-Chieh and Bansal, Mukul S.},
-	title = {Phylogenetic reconciliation reveals extensive ancestral recombination 
-  in Sarbecoviruses and the SARS-CoV-2 lineage},
-	year = {2021},
-	doi = {10.1101/2021.08.12.456131},
-	publisher = {Cold Spring Harbor Laboratory},
-	URL = {https://www.biorxiv.org/content/early/2021/08/12/2021.08.12.456131},
-	journal = {bioRxiv}
+	title = {virDTL: Viral recombination analysis through phylogenetic
+reconciliation and its application to sarbecoviruses and
+SARS-CoV-2},
+	published = {Mary Ann Liebert},
+	year = {2022},
+	URL = {https://compbio.engr.uconn.edu/wp-content/uploads/sites/2447/2022/07/virDTL_JCB2022_Preprint.pdf},
+	journal = {Journal of Computational Biology}
 }
 ```
 
